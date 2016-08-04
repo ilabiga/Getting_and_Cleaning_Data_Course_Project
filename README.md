@@ -1,7 +1,7 @@
 # Getting_and_Cleaning_Data_Course_Project
 This is the repository for the final project for the Coursera course called "Getting and Cleaning Data"
 
-The input data, the output data and the transformations performed for this project are all described in the file **CodeBook.md** contained in the repo.
+The input data, the output data and the transformations performed for this project (with the R script *run_analysis.R*) are all described in the file **CodeBook.md** contained in the repo.
 
 The final output tidy data is in the file **OutputData.txt**.
 
