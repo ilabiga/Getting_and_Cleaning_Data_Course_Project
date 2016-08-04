@@ -7,12 +7,12 @@ The final output tidy data is in the file **OutputData.txt**.
 
 The R script written for obtaining the output data set (from the input data set) is the file **run_analysis.R**.
 
-In order to run this R script you first need:
+In order to execute this R script you need:
 * to install the R package “dplyr”
 * to download and unzip the input data from the following link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-* to save the script *run_analysis.R* inside the directory where you saved and unzip the data folder (*UCI HAR Dataset*)
+* to save the script *run_analysis.R* inside the directory where you saved and unzipped the data folder (*UCI HAR Dataset*)
 * to set the R working directory equal to that directory (with the *setwd(dir)* comamnd)
-* to run the script run_analysis.R (with the command *source("run_analysis.R")* in the R Studio console).
+* to run the script run_analysis.R (with the command *source("run_analysis.R")* in the R Studio console.
 
 ### Project Instructions
 
