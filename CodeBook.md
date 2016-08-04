@@ -34,9 +34,11 @@ The final dataset obtained during this project is a table contained in the repos
 
 The first column contains the identifiers for the subject who performed the experiment. Its range is from 1 to 6.
 
-The second column the label for the performed activity: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. 
-The remaning XXX columns refers to those features containing the mean and standard deviations of different variables calculated from the sensor temporal signals (body acceleration along the x,y and z directions, gravitational acceleration acceleration along the x,y and z directions, …). Features are normalized and the range is from -1 to 1.
-The XXX rows of the dataset refer to every distinct combination subject –activity, where all the 30th subjects were considered (independently if the belong to the train or test partitions). The feauture values are the averages of the experimental results obtained for each subject and each activity.
+The second column contains the label for the performed activity: *WALKING*, *WALKING_UPSTAIRS*, *WALKING_DOWNSTAIRS*, *SITTING*, *STANDING*, *LAYING*.
+
+The remaning 79 columns refers to those features containing the mean and standard deviations of different variables calculated from the sensor temporal signals (body acceleration along the x,y and z directions, gravitational acceleration acceleration along the x,y and z directions, ...). Features are normalized and the range is from -1 to 1.
+
+The 180 rows of the dataset refer to every distinct combination subject - activity, where all the 6 activities and all the 30 subjects (independently if they belong to the train or test partitions) were considered. The feauture values are the averages of the experimental results obtained for each subject and each activity.
 
 ### Transformations performed to obtained the output dataset from the input dataset:
 
