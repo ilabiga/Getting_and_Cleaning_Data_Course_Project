@@ -10,8 +10,8 @@ The R script written for obtaining the output data set (from the input data set)
 In order to run this R script you first need:
 * to install the R package “dplyr”
 * to download and unzip the input data from the following link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-* to change the lines of the R script where R reads the input data (lines 6,7,10,11,12,15,16,17) with the correct path where you unzipped the input data folder
-* to set the working directory equal to the directory were you saved the script run_analysis.R (with the command *setwd(dir)* in the R Studio console)
+* to save the script *run_analysis.R* inside the directory where you saved and unzip the data folder (*UCI HAR Dataset*)
+* to set the R working directory equal to that directory (with the *setwd(dir)* comamnd)
 * to run the script run_analysis.R (with the command *source("run_analysis.R")* in the R Studio console).
 
 ### Project Instructions
