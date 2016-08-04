@@ -56,5 +56,5 @@ DataFinal <-aggregate(DataAll[,3:81], by=list(DataAll[,1],DataAll[,2]),FUN=mean,
 colnames(DataFinal) <- c("Subject","Activity",colnames(xDataSetExtract))
 
 ## Export the final data set:
-write.table(DataFinal, "C:/Users/UL16971/Downloads/Dati-R/Corso-Getting-Cleaning-Data/Project/UCI HAR Dataset/OutputData.txt", sep="\t")
+write.table(DataFinal, "C:/Users/UL16971/Downloads/Dati-R/Corso-Getting-Cleaning-Data/Project/UCI HAR Dataset/OutputData.txt", sep="\t", row.name=FALSE)
 
