@@ -36,17 +36,17 @@ The first column contains the identifiers for the subject who performed the expe
 
 The second column contains the label for the performed activity: *WALKING*, *WALKING_UPSTAIRS*, *WALKING_DOWNSTAIRS*, *SITTING*, *STANDING*, *LAYING*.
 
-The remaning 79 columns refers to those features containing the mean and standard deviations of different variables calculated from the sensor temporal signals (body acceleration along the x,y and z directions, gravitational acceleration acceleration along the x,y and z directions, ...). Features are normalized and the range is from -1 to 1.
+The remaning 79 columns refer to those features containing the mean and standard deviations of different variables calculated from the sensor temporal signals (body acceleration along the x,y and z directions, gravitational acceleration acceleration along the x,y and z directions, ...). Features are normalized and the range is from -1 to 1.
 
 The 180 rows of the dataset refer to every distinct combination subject - activity, where all the 6 activities and all the 30 subjects (independently if they belong to the train or test partitions) were considered. The feauture values are the averages of the experimental results obtained for each subject and each activity.
 
-### Transformations performed to obtained the output dataset from the input dataset:
+### Transformations performed to obtain the output dataset from the input dataset
 
-* a single vector called “subject” was created appending the subject identifiers for the test set after the ones for the training set
+* a single vector called *subject* was created appending the subject identifiers for the test set after the ones for the training set
 * descriptive activity names were associated to activity identifiers for each experiment, performing left joins between the yTrain/yTest data and the activityLabels data
-* a single data set called “activity” was created appending the activity identifiers/labels for the test set after the ones for the training set
-* a single data set called “xDataSet” was created appending the test set after the training set
-* a data set called “xDataSetExtract” was created extracting from xDataSet only the measurements on the mean and standard deviation for each measurement
-* a single data set called “DataAll” was created adding information about the subject identifiers and using descriptive activity names and variable names
-* the final data set called “DataFinal” was created, which contains the average of each variable for each activity and subject
-* DataFinal was exported in the file called “OutputData.txt”
+* a single data set called *activity* was created appending the activity identifiers/labels for the test set after the ones for the training set
+* a single data set called *xDataSet* was created appending the test set after the training set
+* a data set called *xDataSetExtract* was created extracting from xDataSet only the measurements on the mean and standard deviation for each measurement
+* a single data set called *DataAll* was created adding information about the subject identifiers and using descriptive activity names and variable names
+* the final data set called *DataFinal* was created, which contains the average of each variable for each activity and subject
+* DataFinal was exported in the file called *OutputData.txt*
